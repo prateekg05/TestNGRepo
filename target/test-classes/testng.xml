@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Testng suite" verbose="1" >
+  <test name="Facebook login test" >
+   <classes>
+      <class name="com.qa.tests.AssertTest"/>
+      <class name="com.qa.tests.DemoTest"/>
+       <class name="com.qa.tests.TASTest"/>
+      <class name="com.qa.tests.testNGBasics"/>
+    </classes>
+  </test>
+ 
+ 
+</suite>

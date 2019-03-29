@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testng suite]">
+  <test name="Facebook login test(failed)">
+    <classes>
+      <class name="com.qa.tests.DemoTest">
+        <methods>
+          <include name="div"/>
+        </methods>
+      </class> <!-- com.qa.tests.DemoTest -->
+      <class name="com.qa.tests.AssertTest">
+        <methods>
+          <include name="TasLoginTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.tests.AssertTest -->
+      <class name="com.qa.tests.TASTest">
+        <methods>
+          <include name="checkLoginButton"/>
+          <include name="tearDown"/>
+          <include name="facebooklogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.tests.TASTest -->
+      <class name="com.qa.tests.testNGBasics">
+        <methods>
+          <include name="EnterUrl"/>
+          <include name="LaunchBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="GenerateReport"/>
+          <include name="Setup"/>
+          <include name="closebrowser"/>
+          <include name="DeleteAllCookies"/>
+        </methods>
+      </class> <!-- com.qa.tests.testNGBasics -->
+    </classes>
+  </test> <!-- Facebook login test(failed) -->
+</suite> <!-- Failed suite [Testng suite] -->

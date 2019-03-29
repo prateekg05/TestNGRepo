@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="3" total="11" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testng suite" duration-ms="31186" started-at="2019-03-18T16:19:13Z" finished-at="2019-03-18T16:19:45Z">
+    <groups>
+      <group name="button text">
+        <method signature="TASTest.checkLoginButton()[pri:0, instance:com.qa.tests.TASTest@4678c730]" name="checkLoginButton" class="com.qa.tests.TASTest"/>
+      </group> <!-- button text -->
+      <group name="test">
+        <method signature="TASTest.test1()[pri:0, instance:com.qa.tests.TASTest@4678c730]" name="test1" class="com.qa.tests.TASTest"/>
+        <method signature="TASTest.test2()[pri:0, instance:com.qa.tests.TASTest@4678c730]" name="test2" class="com.qa.tests.TASTest"/>
+      </group> <!-- test -->
+      <group name="login text">
+        <method signature="TASTest.TasLoginTest()[pri:0, instance:com.qa.tests.TASTest@4678c730]" name="TasLoginTest" class="com.qa.tests.TASTest"/>
+      </group> <!-- login text -->
+      <group name="login">
+        <method signature="TASTest.facebooklogin()[pri:0, instance:com.qa.tests.TASTest@4678c730]" name="facebooklogin" class="com.qa.tests.TASTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="Facebook login test" duration-ms="31186" started-at="2019-03-18T16:19:13Z" finished-at="2019-03-18T16:19:45Z">
+      <class name="com.qa.tests.testNGBasics">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.tests.testNGBasics@6767c1fc]" name="Setup" is-config="true" duration-ms="8" started-at="2019-03-18T21:49:13Z" finished-at="2019-03-18T21:49:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.qa.tests.testNGBasics@6767c1fc]" name="login" is-config="true" duration-ms="0" started-at="2019-03-18T21:49:43Z" finished-at="2019-03-18T21:49:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="checktitle()[pri:0, instance:com.qa.tests.testNGBasics@6767c1fc]" name="checktitle" duration-ms="2" started-at="2019-03-18T21:49:43Z" finished-at="2019-03-18T21:49:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checktitle -->
+        <test-method status="PASS" signature="EnterUrl()[pri:0, instance:com.qa.tests.testNGBasics@6767c1fc]" name="EnterUrl" is-config="true" duration-ms="0" started-at="2019-03-18T21:49:43Z" finished-at="2019-03-18T21:49:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUrl -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.qa.tests.testNGBasics@6767c1fc]" name="logout" is-config="true" duration-ms="0" started-at="2019-03-18T21:49:43Z" finished-at="2019-03-18T21:49:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="DeleteAllCookies()[pri:0, instance:com.qa.tests.testNGBasics@6767c1fc]" name="DeleteAllCookies" is-config="true" duration-ms="0" started-at="2019-03-18T21:49:43Z" finished-at="2019-03-18T21:49:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAllCookies -->
+        <test-method status="PASS" signature="GenerateReport()[pri:0, instance:com.qa.tests.testNGBasics@6767c1fc]" name="GenerateReport" is-config="true" duration-ms="0" started-at="2019-03-18T21:49:45Z" finished-at="2019-03-18T21:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateReport -->
+      </class> <!-- com.qa.tests.testNGBasics -->
+      <class name="com.qa.tests.AssertTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.AssertTest@1b604f19]" name="setUp" is-config="true" duration-ms="12291" started-at="2019-03-18T21:49:13Z" finished-at="2019-03-18T21:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.TASTest@4678c730]" name="setUp" is-config="true" duration-ms="8754" started-at="2019-03-18T21:49:26Z" finished-at="2019-03-18T21:49:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qa.tests.testNGBasics@6767c1fc]" name="LaunchBrowser" is-config="true" duration-ms="4" started-at="2019-03-18T21:49:34Z" finished-at="2019-03-18T21:49:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="FAIL" signature="TasLoginTest()[pri:0, instance:com.qa.tests.AssertTest@1b604f19]" name="TasLoginTest" duration-ms="4709" started-at="2019-03-18T21:49:35Z" finished-at="2019-03-18T21:49:39Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-V86D6NKR', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\PRATEE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53566}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: e72ab60e5cb35664348cdf88cff2696e
+*** Element info: {Using=xpath, value=//div[@class='mbs _52lq fsl fwb fcb']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-V86D6NKR', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\PRATEE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53566}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: e72ab60e5cb35664348cdf88cff2696e
+*** Element info: {Using=xpath, value=//div[@class='mbs _52lq fsl fwb fcb']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.qa.tests.AssertTest.TasLoginTest(AssertTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TasLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.AssertTest@1b604f19]" name="tearDown" is-config="true" duration-ms="724" started-at="2019-03-18T21:49:43Z" finished-at="2019-03-18T21:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.TASTest@4678c730]" name="tearDown" is-config="true" duration-ms="848" started-at="2019-03-18T21:49:44Z" finished-at="2019-03-18T21:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.qa.tests.testNGBasics@6767c1fc]" name="closebrowser" is-config="true" duration-ms="0" started-at="2019-03-18T21:49:45Z" finished-at="2019-03-18T21:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.qa.tests.AssertTest -->
+      <class name="com.qa.tests.DemoTest">
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.tests.DemoTest@d2cc05a]" name="sub" duration-ms="7" started-at="2019-03-18T21:49:39Z" finished-at="2019-03-18T21:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="FAIL" signature="div()[pri:0, instance:com.qa.tests.DemoTest@d2cc05a]" name="div" duration-ms="0" started-at="2019-03-18T21:49:39Z" finished-at="2019-03-18T21:49:39Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[expected:<30> but was:<2>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: expected:<30> but was:<2>
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.failNotEquals(Assert.java:287)
+	at junit.framework.Assert.assertEquals(Assert.java:67)
+	at junit.framework.Assert.assertEquals(Assert.java:199)
+	at junit.framework.Assert.assertEquals(Assert.java:205)
+	at com.qa.tests.DemoTest.div(DemoTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="add()[pri:0, instance:com.qa.tests.DemoTest@d2cc05a]" name="add" duration-ms="0" started-at="2019-03-18T21:49:39Z" finished-at="2019-03-18T21:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.tests.DemoTest@d2cc05a]" name="mul" duration-ms="0" started-at="2019-03-18T21:49:39Z" finished-at="2019-03-18T21:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+      </class> <!-- com.qa.tests.DemoTest -->
+      <class name="com.qa.tests.TASTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.qa.tests.TASTest@4678c730]" name="test1" duration-ms="4" started-at="2019-03-18T21:49:39Z" finished-at="2019-03-18T21:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.qa.tests.TASTest@4678c730]" name="test2" duration-ms="4" started-at="2019-03-18T21:49:39Z" finished-at="2019-03-18T21:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="TasLoginTest()[pri:0, instance:com.qa.tests.TASTest@4678c730]" name="TasLoginTest" duration-ms="80" started-at="2019-03-18T21:49:39Z" finished-at="2019-03-18T21:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TasLoginTest -->
+        <test-method status="FAIL" signature="facebooklogin()[pri:0, instance:com.qa.tests.TASTest@4678c730]" name="facebooklogin" duration-ms="3696" started-at="2019-03-18T21:49:39Z" finished-at="2019-03-18T21:49:43Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+	at com.qa.tests.TASTest.facebooklogin(TASTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebooklogin -->
+        <test-method status="SKIP" signature="checkLoginButton()[pri:0, instance:com.qa.tests.TASTest@4678c730]" name="checkLoginButton" duration-ms="12" started-at="2019-03-18T21:49:43Z" depends-on-methods="com.qa.tests.TASTest.facebooklogin" finished-at="2019-03-18T21:49:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginButton -->
+      </class> <!-- com.qa.tests.TASTest -->
+    </test> <!-- Facebook login test -->
+  </suite> <!-- Testng suite -->
+</testng-results>
